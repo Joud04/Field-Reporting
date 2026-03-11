@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, SafeAreaView } from 'react-native';
-import { JournalFormScreen } from './src/screens/JournalFormScreen';
+import { IncidentReportScreen } from './src/screens/IncidentReportScreen';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       {/* Affichage de ton écran de formulaire */}
-      <JournalFormScreen />
+      <IncidentReportScreen />
       
       {/* Barre d'état (heure, batterie) automatique selon le thème */}
       <StatusBar style="auto" />
